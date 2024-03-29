@@ -1,19 +1,20 @@
-.blog-post {
+/* styles each individual post */
+.post {
     background-color: #fff;
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-
-.blog-post h2 {
+/* styles the username of the post */
+.post h2 {
     margin-top: 0;
 }
-
-.blog-post p {
+/* styles the title of the post */
+.post h3 {
     margin-bottom: 10px;
 }
-
-.blog-post small {
+/* styles the content of the post */
+.post p {
     color: #777;
 }

@@ -1,21 +1,22 @@
+/* sets font family, background, and margin for the body */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f0f0f0;
 }
-
+/* styles the header element */
 header {
     background-color: #333;
     color: #fff;
     padding: 20px;
     text-align: center;
 }
-
+/* adds padding to main element */
 main {
     padding: 20px;
 }
-
+/* styles the footer element and fixes it to the bottom of the screen */
 footer {
     background-color: #333;
     color: #fff;
@@ -25,7 +26,7 @@ footer {
     bottom: 0;
     width: 100%;
 }
-
+/* styles all links */
 a {
     color: #fff;
     text-decoration: none;
