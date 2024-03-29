@@ -1,3 +1,4 @@
+// oo wowee
 window.onload = function() {
     const blogPosts = document.getElementById("blogPosts");
     const posts = JSON.parse(localStorage.getItem("posts")) || [];
@@ -22,3 +23,4 @@ window.onload = function() {
         blogPosts.appendChild(postDiv);
     });
 };
+
