@@ -1,17 +1,17 @@
+/*Sets the dimensions for the form element*/
 form {
     max-width: 600px;
     margin: 0 auto;
-    background-color: #fff;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-
+/* Ensures the label elements display on their own line and adds spacing */
 label {
     display: block;
     margin-bottom: 5px;
 }
-
+/* Makes the input boxes take up the full width of the form element and adds a little styling */
 input[type="text"],
 textarea {
     width: 100%;
@@ -21,12 +21,12 @@ textarea {
     border-radius: 4px;
     box-sizing: border-box;
 }
-
+/* sets the height and ensufe that the box cannot strech wider than the form element it is contained in */
 textarea {
     height: 150px;
     max-width: 600px;
 }
-
+/* styles the submit button */
 button {
     background-color: #333;
     color: #fff;
@@ -35,7 +35,7 @@ button {
     border-radius: 4px;
     cursor: pointer;
 }
-
+/* adds unique styling when user hovers over the button element */
 button:hover {
     background-color: #555;
 }

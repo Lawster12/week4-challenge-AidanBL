@@ -1,14 +1,20 @@
 /* sets font family, background, and margin for the body */
+:root{
+    --colorWhite: white;
+    --colorLight: burlyWood;
+    --colorBlack: black;
+    --colorDark: purple;
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0;
+    background-color: var(--colorWhite);
 }
 /* styles the header element */
 header {
-    background-color: #333;
-    color: #fff;
+    color: var(--colorWhite);
     padding: 20px;
     text-align: center;
 }
@@ -18,8 +24,7 @@ main {
 }
 /* styles the footer element and fixes it to the bottom of the screen */
 footer {
-    background-color: #333;
-    color: #fff;
+    color: var(--colorWhite);
     text-align: center;
     padding: 10px;
     position: fixed;
@@ -28,6 +33,6 @@ footer {
 }
 /* styles all links */
 a {
-    color: #fff;
+    color: var(--colorWhite);
     text-decoration: none;
 }
